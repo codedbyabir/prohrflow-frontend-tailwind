@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --color-primary: #396ff7;
+    --color-secondary: #8b8cf4;
+    --color-black: #01103d;
+    --color-bg: #f2f1ff;
+    --color-gray: #767474;
+    --color-white: #ffffff;
+
+    --font-urbanist: 'Urbanist', sans-serif;
+    --font-plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;
+    
+}
+
+@layer base{
+    body {
+        font-family: var(--font-plus-jakarta-sans);
+    }
+}
